@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fd28555-1a82-4147-bc64-68b8c71e16e9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/local.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/local.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/AccountCheckingController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AccountCheckingController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/AccountController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AccountController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ControllerManage.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ControllerManage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/CreditController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/CreditController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/HxOpenAccountConntroller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/HxOpenAccountConntroller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PayDepositProductController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/PayDepositProductController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/SecondClassUserOpenConttoller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/SecondClassUserOpenConttoller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/SendMessageController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/SendMessageController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/TransAsyncQueryController.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/TransactionController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/TransactionController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UserCenterFacadController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UserCenterFacadController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockRun.go" beforeDir="false" afterPath="$PROJECT_DIR$/mockRun.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/config/BaseConfig.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/config/BaseConfig.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/config/BaseData.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/config/BaseData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/config/DbConfig.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/config/DbConfig.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/config/LogConfig.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/config/LogConfig.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dao/BaseData.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/dao/BaseData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dao/ControllerManngerDao.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/dao/ControllerManngerDao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dto/QueryAccountDto.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/dto/QueryAccountDto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dto/ReqHeaderDto.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/dto/ReqHeaderDto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dto/RespHeaderDto.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/dto/RespHeaderDto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/enum/ManngerStatusEnum.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/enum/ManngerStatusEnum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mapper/BaseMapper.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mapper/ControllerManngerMapper.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/mapper/ControllerManngerMapper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/services/QueryAccountService.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/server/QueryAccountService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/default_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/default_test.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="qa@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RspManngerService.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/server/RspManngerService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryAccountService.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/server/QueryAccountService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <folding>
+                <element signature="e#16#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryAccountDto.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/dto/QueryAccountDto.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReqHeaderDto.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/dto/ReqHeaderDto.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseData.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/server/BaseData.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="value.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14145">
+              <caret line="947" column="23" selection-start-line="947" selection-start-column="23" selection-end-line="947" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DepositQueryReceipt</find>
+      <find>ClientMsg</find>
+      <find>PBS02077</find>
+      <find>130503199103280313</find>
+      <find>1012</find>
+      <find>bip0054</find>
+      <find>eAccountNo</find>
+      <find>02074</find>
+      <find>ApplyForAccessToken</find>
+      <find>SetPasswordAndOpenAccount</find>
+      <find>SendMessageIdCode</find>
+      <find>02077</find>
+      <find>OpenVerifyTwo</find>
+      <find>TPS01012</find>
+      <find>QueryBankInfoByBIN</find>
+      <find>PBS02083</find>
+      <find>ThreePhotosContrast</find>
+      <find>bip0054T</find>
+      <find>0054T</find>
+      <find>AccountStateAndAssetQuery</find>
+      <find>FLS12009</find>
+      <find>TransAsyncQueryController</find>
+      <find>UPP1101T</find>
+      <find>xml</find>
+      <find>DepositQueryDepositProduct</find>
+      <find>HxOpenAccountConntroller</find>
+      <find>CreateQu</find>
+      <find>fmt</find>
+      <find>tinfo</find>
+      <find>ReadByte</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="newMock" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/conf/betab.conf" />
+        <option value="$PROJECT_DIR$/conf/betaa.conf" />
+        <option value="$PROJECT_DIR$/models/dto/BindAccountNoAndCheckFiveElementsDto.go" />
+        <option value="$PROJECT_DIR$/models/dto/QueryBankInfoByBINDto.go" />
+        <option value="$PROJECT_DIR$/models/dto/IdCardOcrContrastDto.go" />
+        <option value="$PROJECT_DIR$/controllers/OpenAccount.go" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/controllers/AssertValidController.go" />
+        <option value="$PROJECT_DIR$/controllers/ControllerManage.go" />
+        <option value="$PROJECT_DIR$/controllers/AccountCardValidController.go" />
+        <option value="$PROJECT_DIR$/controllers/SecondClassUserOpenConttoller.go" />
+        <option value="$PROJECT_DIR$/controllers/SendMessageController.go" />
+        <option value="$PROJECT_DIR$/controllers/TransactionController.go" />
+        <option value="$PROJECT_DIR$/controllers/TransAsyncQueryController.go" />
+        <option value="$PROJECT_DIR$/controllers/UserCenterFacadController.go" />
+        <option value="$PROJECT_DIR$/models/dto.go" />
+        <option value="$PROJECT_DIR$/controllers/AccountCheckingController.go" />
+        <option value="$PROJECT_DIR$/models/dto/ReqHeaderDto.go" />
+        <option value="$PROJECT_DIR$/models/dto/RespHeaderDto.go" />
+        <option value="$PROJECT_DIR$/models/dto/QueryCheckingGroupStatusDto.go" />
+        <option value="$PROJECT_DIR$/models/Services.go" />
+        <option value="$PROJECT_DIR$/models/Services/QueryAccountService.go" />
+        <option value="$PROJECT_DIR$/models/Services/ManngerStatusService.go" />
+        <option value="$PROJECT_DIR$/models/Services/ManngerService.go" />
+        <option value="$PROJECT_DIR$/models/services/ManngerService.go" />
+        <option value="$PROJECT_DIR$/models/interfaces/ControllerManngerInterfaces.go" />
+        <option value="$PROJECT_DIR$/models/mapper/ControllerMannger.go" />
+        <option value="$PROJECT_DIR$/models/dao/BaseData.go" />
+        <option value="$PROJECT_DIR$/controllers/HxOpenAccountConntroller.go" />
+        <option value="$PROJECT_DIR$/controllers/PayDepositProductController.go" />
+        <option value="$PROJECT_DIR$/models/dao/ControllerManngerDao.go" />
+        <option value="$PROJECT_DIR$/models/config/BaseConfig.go" />
+        <option value="$PROJECT_DIR$/mockRun.go" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/conf/local.conf" />
+        <option value="$PROJECT_DIR$/models/enum/ManngerStatusEnum.go" />
+        <option value="$PROJECT_DIR$/models/services/BaseService.go" />
+        <option value="$PROJECT_DIR$/models/services/RspManngerService.go" />
+        <option value="$PROJECT_DIR$/models/services/QueryAccountService.go" />
+        <option value="$PROJECT_DIR$/controllers/CreditController.go" />
+        <option value="$PROJECT_DIR$/models/mapper/BaseMapper.go" />
+        <option value="$PROJECT_DIR$/models/mapper/ControllerManngerMapper.go" />
+        <option value="$PROJECT_DIR$/models/enum/TransCodeEnum.go" />
+        <option value="$PROJECT_DIR$/controllers/BaseController.go" />
+        <option value="$PROJECT_DIR$/models/server/enum/TransCodeEnum.go" />
+        <option value="$PROJECT_DIR$/models/server/BaseService.go" />
+        <option value="$PROJECT_DIR$/controllers/AccountController.go" />
+        <option value="$PROJECT_DIR$/models/server/QueryAccountService.go" />
+        <option value="/usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/typeinfo.go" />
+        <option value="$PROJECT_DIR$/models/server/RspManngerService.go" />
+        <option value="$PROJECT_DIR$/models/dto/QueryAccountDto.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="982" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.10.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SearchEverywhereHistoryKey" value="RouteTrialRespDto&#9;null&#9;null" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models/mapper" />
+      <recent name="$PROJECT_DIR$/models/config" />
+      <recent name="$PROJECT_DIR$/conf" />
+      <recent name="$PROJECT_DIR$/controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/models/server/enum" />
+      <recent name="$PROJECT_DIR$/models/dto" />
+      <recent name="$PROJECT_DIR$/models/dto/Util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build mockRun.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hxyhBankTest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+    </configuration>
+    <configuration name="go build mockRun.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hxyhBankTest" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/mockRun.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build mockRun.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build mockRun.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build mockRun.go" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="982" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23504274" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50416666" side_tool="true" weight="0.27081022" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17399268" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.26892656" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.37288135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29491526" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+        <item name="hxyhBankTest" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="hxyhBankTest" type="b2602c69:ProjectViewProjectNode" />
+        <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/controllers/UserCenterFacadController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dto/QueryCheckingGroupStatusDto.go" />
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/xml_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/example_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dto/RespHeaderDto.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Services.go" />
+    <entry file="file://$PROJECT_DIR$/controllers/SecondClassUserOpenConttoller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="57" column="2" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="200" column="5" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AccountCheckingController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/interfaces/ControllerManngerInterfaces.go" />
+    <entry file="file://$PROJECT_DIR$/models/services/ManngerService.go" />
+    <entry file="file://$PROJECT_DIR$/models/dao/BaseData.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1acaf264-6c98-4820-9cce-bda5d1135b42/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/config/LogConfig.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/HxOpenAccountConntroller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="75" selection-start-line="102" selection-start-column="75" selection-end-line="102" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/PayDepositProductController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="110" column="79" selection-start-line="110" selection-start-column="79" selection-end-line="110" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/config/BaseData.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/config/DbConfig.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/config/BaseConfig.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/local.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/TransAsyncQueryController.go" />
+    <entry file="file://$PROJECT_DIR$/controllers/TransactionController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" column="99" selection-start-line="156" selection-start-column="99" selection-end-line="156" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dao/ControllerManngerDao.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="2693" selection-start-line="2693" selection-end-line="2693" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CreditController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mapper/BaseMapper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockRun.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/BaseController.go" />
+    <entry file="file://$PROJECT_DIR$/models/enum/ManngerStatusEnum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="11" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/enum/TransCodeEnum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="102" column="18" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mapper/ControllerManngerMapper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ControllerManage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AccountController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="e#21#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/marshal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/server/BaseData.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="210" column="26" selection-start-line="210" selection-start-column="26" selection-end-line="210" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../golang.org/x/crypto/openpgp/keys.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="629" column="50" selection-start-line="629" selection-start-column="50" selection-end-line="629" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/bufio/bufio.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/xml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="228" column="5" selection-start-line="228" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/typeinfo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="412" column="27" lean-forward="true" selection-start-line="412" selection-start-column="27" selection-end-line="412" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/reflect/type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="1144" column="4" selection-start-line="1144" selection-start-column="4" selection-end-line="1144" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14145">
+          <caret line="947" column="23" selection-start-line="947" selection-start-column="23" selection-end-line="947" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/server/QueryAccountService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="e#16#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dto/ReqHeaderDto.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/dto/QueryAccountDto.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/server/RspManngerService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

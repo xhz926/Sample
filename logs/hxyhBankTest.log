@@ -1,0 +1,719 @@
+2018/08/25 15:24:04.890 [I] [:0]  日志配置文件初始化init end
+2018/08/25 15:24:04.897 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  Handler crashed with error reflect: call of reflect.Value.FieldByName on int Value
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:207
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:835
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/services/RspManngerService.go:43
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:37
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 15:24:29.387 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 15:26:16.578 [I] [:0]  日志配置文件初始化init end
+2018/08/25 15:26:16.585 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  Handler crashed with error reflect: call of reflect.Value.FieldByName on int Value
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:207
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:835
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/services/RspManngerService.go:43
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:37
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 15:26:18.717 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 15:26:18.718 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 15:27:02.673 [I] [:0]  日志配置文件初始化init end
+2018/08/25 15:27:02.679 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 15:27:03.474 [I] [AccountController.go:37]  v 2
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  Handler crashed with error can't find templatefile in the path:views/accountcontroller/queryaccount.tpl
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/template.go:73
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/controller.go:264
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/controller.go:215
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/controller.go:195
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:859
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 15:27:03.474 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 15:35:27.793 [I] [:0]  日志配置文件初始化init end
+2018/08/25 15:35:27.799 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 15:35:53.290 [I] [AccountController.go:37]  a= []enum.TransCodeEnum
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  Handler crashed with error can't find templatefile in the path:views/accountcontroller/queryaccount.tpl
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/template.go:73
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/controller.go:264
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/controller.go:215
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/controller.go:195
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:859
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 15:35:53.290 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 15:42:32.416 [I] [:0]  日志配置文件初始化init end
+2018/08/25 15:42:32.422 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 15:47:35.926 [I] [:0]  日志配置文件初始化init end
+2018/08/25 15:47:35.932 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 16:17:00.783 [I] [:0]  日志配置文件初始化init end
+2018/08/25 16:17:00.792 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 16:56:36.207 [I] [:0]  日志配置文件初始化init end
+2018/08/25 16:56:36.216 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 16:59:59.881 [I] [:0]  日志配置文件初始化init end
+2018/08/25 16:59:59.888 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:00:18.879 [I] [asm_amd64.s:573]  body= &{0xc420387fc0 <nil> <nil> false true {0 0} false false false 0x12c6d30}
+2018/08/25 17:00:18.879 [I] [AccountController.go:41]  不存在指定接口
+2018/08/25 17:01:47.613 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:01:47.623 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:01:50.449 [I] [asm_amd64.s:573]  body= [60 82 79 79 84 62 10 32 32 32 32 60 82 101 113 83 118 99 72 101 97 100 101 114 62 10 32 32 32 32 32 32 32 32 60 99 111 110 115 117 109 101 114 73 100 62 69 68 66 60 47 99 111 110 115 117 109 101 114 73 100 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 67 111 100 101 62 66 73 80 48 48 53 52 84 60 47 116 114 97 110 67 111 100 101 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 83 101 113 78 111 62 69 68 66 48 49 50 48 49 56 48 56 50 50 49 48 48 48 54 51 52 49 53 52 69 68 66 50 57 50 53 50 53 60 47 116 114 97 110 83 101 113 78 111 62 10 32 32 32 32 32 32 32 32 60 103 108 111 98 97 108 83 101 113 78 111 62 69 68 66 48 49 50 48 49 56 48 56 50 50 49 48 48 48 54 51 52 49 53 52 60 47 103 108 111 98 97 108 83 101 113 78 111 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 68 97 116 101 62 50 48 49 56 48 56 50 50 60 47 116 114 97 110 68 97 116 101 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 84 105 109 101 62 49 48 52 57 52 55 52 49 57 60 47 116 114 97 110 84 105 109 101 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 84 101 108 108 101 114 78 111 62 77 48 48 48 49 60 47 116 114 97 110 84 101 108 108 101 114 78 111 62 10 32 32 32 32 32 32 32 32 60 98 114 97 110 99 104 73 100 62 56 48 50 48 49 49 60 47 98 114 97 110 99 104 73 100 62 10 32 32 32 32 32 32 32 32 60 97 99 99 116 68 97 116 101 62 50 48 49 56 48 56 50 50 60 47 97 99 99 116 68 97 116 101 62 10 32 32 32 32 32 32 32 32 60 115 111 117 114 99 101 83 121 115 73 100 62 69 68 66 60 47 115 111 117 114 99 101 83 121 115 73 100 62 10 32 32 32 32 32 32 32 32 60 99 104 97 110 110 101 108 62 49 48 51 55 60 47 99 104 97 110 110 101 108 62 10 32 32 32 32 60 47 82 101 113 83 118 99 72 101 97 100 101 114 62 10 32 32 32 32 60 114 101 113 83 118 99 69 120 116 72 101 97 100 101 114 77 97 112 62 10 32 32 32 32 32 32 32 32 60 118 101 114 115 105 111 110 62 48 48 49 60 47 118 101 114 115 105 111 110 62 10 32 32 32 32 32 32 32 32 60 116 121 112 101 62 88 60 47 116 121 112 101 62 10 32 32 32 32 32 32 32 32 60 109 97 99 86 97 108 117 101 62 60 47 109 97 99 86 97 108 117 101 62 10 32 32 32 32 32 32 32 32 60 115 101 115 115 105 111 110 73 68 62 60 47 115 101 115 115 105 111 110 73 68 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 73 80 62 60 47 99 108 105 101 110 116 73 80 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 77 65 67 62 60 47 99 108 105 101 110 116 77 65 67 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 79 83 62 60 47 99 108 105 101 110 116 79 83 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 66 114 111 119 115 101 114 62 60 47 99 108 105 101 110 116 66 114 111 119 115 101 114 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 78 117 110 105 116 84 121 112 101 62 60 47 99 108 105 101 110 116 78 117 110 105 116 84 121 112 101 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 84 101 114 109 105 110 97 116 101 78 79 62 60 47 99 108 105 101 110 116 84 101 114 109 105 110 97 116 101 78 79 62 10 32 32 32 32 60 47 114 101 113 83 118 99 69 120 116 72 101 97 100 101 114 77 97 112 62 10 32 32 32 32 60 83 118 99 66 111 100 121 62 10 32 32 32 32 60 101 65 99 99 111 117 110 116 78 111 62 54 50 51 54 56 56 50 50 48 49 48 48 48 48 48 48 56 54 48 60 47 101 65 99 99 111 117 110 116 78 111 62 10 32 32 32 32 60 99 117 115 116 78 111 62 49 48 48 48 52 56 53 57 49 48 60 47 99 117 115 116 78 111 62 10 60 47 83 118 99 66 111 100 121 62 10 32 32 32 32 60 101 115 98 83 101 114 118 105 99 101 78 97 109 101 62 66 73 80 48 48 53 52 84 60 47 101 115 98 83 101 114 118 105 99 101 78 97 109 101 62 10 60 47 82 79 79 84 62]
+2018/08/25 17:01:50.449 [I] [AccountController.go:43]  不存在指定接口
+2018/08/25 17:02:02.763 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:02:02.776 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:02:06.856 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:02:06.864 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:02:08.588 [I] [asm_amd64.s:573]  body= <ROOT>
+    <ReqSvcHeader>
+        <consumerId>EDB</consumerId>
+        <tranCode>BIP0054T</tranCode>
+        <tranSeqNo>EDB01201808221000634154EDB292525</tranSeqNo>
+        <globalSeqNo>EDB01201808221000634154</globalSeqNo>
+        <tranDate>20180822</tranDate>
+        <tranTime>104947419</tranTime>
+        <tranTellerNo>M0001</tranTellerNo>
+        <branchId>802011</branchId>
+        <acctDate>20180822</acctDate>
+        <sourceSysId>EDB</sourceSysId>
+        <channel>1037</channel>
+    </ReqSvcHeader>
+    <reqSvcExtHeaderMap>
+        <version>001</version>
+        <type>X</type>
+        <macValue></macValue>
+        <sessionID></sessionID>
+        <clientIP></clientIP>
+        <clientMAC></clientMAC>
+        <clientOS></clientOS>
+        <clientBrowser></clientBrowser>
+        <clientNunitType></clientNunitType>
+        <clientTerminateNO></clientTerminateNO>
+    </reqSvcExtHeaderMap>
+    <SvcBody>
+    <eAccountNo>6236882201000000860</eAccountNo>
+    <custNo>1000485910</custNo>
+</SvcBody>
+    <esbServiceName>BIP0054T</esbServiceName>
+</ROOT>
+2018/08/25 17:02:08.588 [I] [AccountController.go:43]  不存在指定接口
+2018/08/25 17:04:21.793 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:04:21.800 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:04:23.976 [I] [AccountController.go:39]  requestData= <ROOT>
+    <ReqSvcHeader>
+        <consumerId>EDB</consumerId>
+        <tranCode>BIP0054T</tranCode>
+        <tranSeqNo>EDB01201808221000634154EDB292525</tranSeqNo>
+        <globalSeqNo>EDB01201808221000634154</globalSeqNo>
+        <tranDate>20180822</tranDate>
+        <tranTime>104947419</tranTime>
+        <tranTellerNo>M0001</tranTellerNo>
+        <branchId>802011</branchId>
+        <acctDate>20180822</acctDate>
+        <sourceSysId>EDB</sourceSysId>
+        <channel>1037</channel>
+    </ReqSvcHeader>
+    <reqSvcExtHeaderMap>
+        <version>001</version>
+        <type>X</type>
+        <macValue></macValue>
+        <sessionID></sessionID>
+        <clientIP></clientIP>
+        <clientMAC></clientMAC>
+        <clientOS></clientOS>
+        <clientBrowser></clientBrowser>
+        <clientNunitType></clientNunitType>
+        <clientTerminateNO></clientTerminateNO>
+    </reqSvcExtHeaderMap>
+    <SvcBody>
+    <eAccountNo>6236882201000000860</eAccountNo>
+    <custNo>1000485910</custNo>
+</SvcBody>
+    <esbServiceName>BIP0054T</esbServiceName>
+</ROOT>
+2018/08/25 17:04:23.976 [I] [AccountController.go:39]  不存在指定接口
+2018/08/25 17:05:38.937 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:05:38.945 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:05:47.512 [I] [AccountController.go:39]  requestData= <ROOT>
+    <ReqSvcHeader>
+        <consumerId>EDB</consumerId>
+        <tranCode>BIP0054T</tranCode>
+        <tranSeqNo>EDB01201808221000634154EDB292525</tranSeqNo>
+        <globalSeqNo>EDB01201808221000634154</globalSeqNo>
+        <tranDate>20180822</tranDate>
+        <tranTime>104947419</tranTime>
+        <tranTellerNo>M0001</tranTellerNo>
+        <branchId>802011</branchId>
+        <acctDate>20180822</acctDate>
+        <sourceSysId>EDB</sourceSysId>
+        <channel>1037</channel>
+    </ReqSvcHeader>
+    <reqSvcExtHeaderMap>
+        <version>001</version>
+        <type>X</type>
+        <macValue></macValue>
+        <sessionID></sessionID>
+        <clientIP></clientIP>
+        <clientMAC></clientMAC>
+        <clientOS></clientOS>
+        <clientBrowser></clientBrowser>
+        <clientNunitType></clientNunitType>
+        <clientTerminateNO></clientTerminateNO>
+    </reqSvcExtHeaderMap>
+    <SvcBody>
+    <eAccountNo>6236882201000000860</eAccountNo>
+    <custNo>1000485910</custNo>
+</SvcBody>
+    <esbServiceName>BIP0054T</esbServiceName>
+</ROOT>
+2018/08/25 17:05:47.512 [I] [AccountController.go:39]  不存在指定接口
+2018/08/25 17:06:21.763 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:06:21.770 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:06:23.566 [I] [AccountController.go:39]  requestData= <ROOT>
+    <ReqSvcHeader>
+        <consumerId>EDB</consumerId>
+        <tranCode>BIP0054T</tranCode>
+        <tranSeqNo>EDB01201808221000634154EDB292525</tranSeqNo>
+        <globalSeqNo>EDB01201808221000634154</globalSeqNo>
+        <tranDate>20180822</tranDate>
+        <tranTime>104947419</tranTime>
+        <tranTellerNo>M0001</tranTellerNo>
+        <branchId>802011</branchId>
+        <acctDate>20180822</acctDate>
+        <sourceSysId>EDB</sourceSysId>
+        <channel>1037</channel>
+    </ReqSvcHeader>
+    <reqSvcExtHeaderMap>
+        <version>001</version>
+        <type>X</type>
+        <macValue></macValue>
+        <sessionID></sessionID>
+        <clientIP></clientIP>
+        <clientMAC></clientMAC>
+        <clientOS></clientOS>
+        <clientBrowser></clientBrowser>
+        <clientNunitType></clientNunitType>
+        <clientTerminateNO></clientTerminateNO>
+    </reqSvcExtHeaderMap>
+    <SvcBody>
+    <eAccountNo>6236882201000000860</eAccountNo>
+    <custNo>1000485910</custNo>
+</SvcBody>
+    <esbServiceName>BIP0054T</esbServiceName>
+</ROOT>
+2018/08/25 17:06:23.566 [I] [RspManngerService.go:47]  this= {}  DoExecute
+2018/08/25 17:06:23.566 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:17:51.867 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:17:51.878 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  Handler crashed with error reflect: call of reflect.Value.FieldByName on ptr Value
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:207
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:835
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:47
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 17:17:54.241 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 17:20:12.426 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:20:12.433 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  Handler crashed with error reflect: FieldByName of non-struct type
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/type.go:979
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:47
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 17:20:17.404 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 17:20:45.455 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:20:45.469 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:20:46.615 [I] [AccountController.go:39]  t= *server.queryAccountService
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  Handler crashed with error reflect: FieldByName of non-struct type
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/type.go:979
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:48
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 17:20:46.615 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 17:21:59.036 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:21:59.044 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:22:00.873 [I] [AccountController.go:39]  t= *server.queryAccountService
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  Handler crashed with error reflect: Field of non-struct type
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/type.go:963
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:48
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 17:22:00.873 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 17:22:24.752 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:22:24.759 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:22:26.254 [I] [AccountController.go:39]  t= *server.queryAccountService
+2018/08/25 17:22:26.254 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 17:22:26.254 [C] [asm_amd64.s:573]  Handler crashed with error reflect: NumField of non-struct type
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/type.go:1019
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:48
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 17:22:26.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 17:25:32.883 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:25:32.890 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:25:35.831 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:25:35.831 [I] [RspManngerService.go:54]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:25:35.831 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:29:35.211 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:29:35.224 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:29:41.245 [I] [AccountController.go:39]  body len= 1059
+2018/08/25 17:29:41.245 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:29:41.246 [I] [RspManngerService.go:54]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:29:41.246 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:29:47.849 [I] [AccountController.go:39]  body len= 0
+2018/08/25 17:29:47.849 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:29:47.849 [I] [RspManngerService.go:54]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:29:47.850 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:34:04.198 [I] [AccountController.go:39]  body len= 1059
+2018/08/25 17:34:04.198 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:34:04.198 [I] [RspManngerService.go:54]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:34:04.198 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:34:08.136 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:34:08.143 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:34:09.322 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:34:09.322 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:34:09.323 [I] [RspManngerService.go:65]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:34:09.323 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:34:09.323 [I] [RspManngerService.go:70]  BIP0054T接口处理请求结束
+2018/08/25 17:34:26.010 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:34:26.010 [E] [AccountController.go:39]  BIP0054T接口,body为空,请输入正确请求
+2018/08/25 17:34:26.010 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  Handler crashed with error BIP0054T接口,body为空,请输入正确请求
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:56
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 17:34:26.010 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 17:35:10.922 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:35:10.922 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:35:10.922 [I] [RspManngerService.go:65]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:35:10.922 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:35:10.922 [I] [RspManngerService.go:70]  BIP0054T接口处理请求结束
+2018/08/25 17:37:06.705 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:37:06.712 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:37:09.828 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:37:09.828 [E] [AccountController.go:39]  BIP0054T接口,body为空,请输入正确请求
+2018/08/25 17:37:09.828 [I] [asm_amd64.s:573]  请求错误, BIP0054T接口,body为空,请输入正确请求
+2018/08/25 17:37:09.828 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 17:41:39.556 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:41:39.565 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:41:40.463 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:41:40.463 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:41:40.463 [I] [RspManngerService.go:71]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:41:40.463 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:41:40.463 [I] [RspManngerService.go:77]  BIP0054T接口处理请求结束
+2018/08/25 17:43:35.403 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:43:35.413 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:43:36.876 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:43:36.876 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:43:36.876 [I] [RspManngerService.go:73]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:43:36.876 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:43:36.876 [I] [RspManngerService.go:79]  BIP0054T接口处理请求结束
+2018/08/25 17:43:45.916 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:43:45.916 [E] [AccountController.go:39]  BIP0054T接口,body为空,请输入正确请求
+2018/08/25 17:43:45.916 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 17:46:43.543 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:46:43.550 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:46:44.775 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:46:44.775 [E] [AccountController.go:39]  不存在指定的成员变量,请确认是否已经声明了,ReqData变量
+2018/08/25 17:46:44.775 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 17:50:46.456 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:50:46.470 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:50:49.677 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:50:49.678 [I] [AccountController.go:39]  ReqData 存在= {ReqData  dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 17:50:49.678 [I] [RspManngerService.go:74]  this= {{{ } {          } { } }}  DoExecute
+2018/08/25 17:50:49.678 [I] [AccountController.go:39]  存在指定接口
+2018/08/25 17:50:49.678 [I] [RspManngerService.go:80]  BIP0054T接口处理请求结束
+2018/08/25 17:57:27.572 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:57:27.581 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:57:29.894 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:57:29.894 [E] [AccountController.go:39]  不存在指定的成员变量,请确认是否已经声明了,ReqData变量
+2018/08/25 17:57:29.894 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 17:57:51.713 [I] [:0]  日志配置文件初始化init end
+2018/08/25 17:57:51.721 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 17:57:53.437 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 17:57:53.437 [E] [AccountController.go:39]  v= &{{{ } {          } { } }}
+2018/08/25 17:57:53.437 [I] [RspManngerService.go:89]  BIP0054T接口处理请求结束
+2018/08/25 18:11:07.436 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:11:07.443 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:11:10.843 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:11:10.843 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:11:10.843 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:11:54.837 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:11:54.845 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:11:58.440 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:11:58.440 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:11:58.440 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:12:18.087 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:12:18.099 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:12:20.303 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:12:20.303 [E] [AccountController.go:39]  v= <nil>
+2018/08/25 18:12:20.303 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:12:20.303 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:12:52.708 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:12:52.718 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:12:54.265 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:12:54.265 [E] [AccountController.go:39]  v= 1
+2018/08/25 18:12:54.265 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:12:54.265 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:13:10.248 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:13:10.260 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:13:11.761 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  Handler crashed with error interface conversion: interface {} is *reflect.ValueError, not string
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/iface.go:252
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:53
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:775
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:85
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 18:13:11.761 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 18:13:28.686 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:13:28.693 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:13:30.993 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:13:30.993 [E] [AccountController.go:39]  v= {<nil>}
+2018/08/25 18:13:30.993 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:13:30.993 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:13:43.868 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:13:43.875 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:13:45.180 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  Handler crashed with error interface conversion: interface {} is *reflect.ValueError, not string
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/iface.go:252
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:53
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:207
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:835
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:85
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 18:13:45.180 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 18:14:01.744 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:14:01.756 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:14:03.677 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:14:03.677 [E] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:14:03.677 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:14:03.677 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:15:38.055 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:15:38.065 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:15:40.397 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:15:40.397 [E] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:15:40.397 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:15:40.397 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:15:42.420 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:15:42.436 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:15:45.568 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:15:45.568 [E] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:15:45.568 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:15:45.568 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:15:53.692 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:15:53.698 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:15:55.860 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:15:55.860 [E] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:15:55.860 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:15:55.860 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:16:33.280 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:16:33.293 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:16:35.545 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:16:35.545 [E] [AccountController.go:39]  v= 1
+2018/08/25 18:16:35.545 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:16:35.545 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:17:33.760 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:17:33.771 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:17:38.470 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:17:38.470 [E] [AccountController.go:39]  v= <nil>
+2018/08/25 18:17:38.470 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:17:38.470 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:18:05.027 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:18:05.034 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:18:06.664 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  Handler crashed with error interface conversion: interface {} is *reflect.ValueError, not string
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/iface.go:252
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:53
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:207
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:1192
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:85
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 18:18:06.664 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 18:18:06.665 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 18:18:06.665 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 18:18:06.665 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 18:18:25.963 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:18:25.976 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:18:28.874 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:18:28.874 [E] [AccountController.go:39]  v= {<nil>}
+2018/08/25 18:18:28.874 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:18:28.874 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:18:38.362 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:18:38.372 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:18:41.253 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:18:41.253 [E] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:18:41.253 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:18:41.253 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:19:21.154 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:19:21.161 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:19:23.470 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:19:23.470 [I] [AccountController.go:39]  t= *server.queryAccountService
+2018/08/25 18:19:23.470 [I] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:19:23.470 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:19:23.470 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:21:47.727 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:21:47.733 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:21:49.628 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:21:49.628 [I] [AccountController.go:39]  t= *server.queryAccountService
+2018/08/25 18:21:49.628 [I] [AccountController.go:39]  v= <nil>
+2018/08/25 18:21:49.628 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:21:49.628 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:24:24.865 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:24:24.872 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:24:26.943 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:24:26.943 [I] [AccountController.go:39]  t= *server.queryAccountService
+2018/08/25 18:24:26.943 [I] [AccountController.go:39]  v= <nil>
+2018/08/25 18:24:26.943 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:24:26.943 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:25:21.258 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:25:21.264 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:25:23.871 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:25:23.871 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:25:23.871 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:26:28.402 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:26:28.410 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:26:33.256 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:26:33.257 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:26:33.257 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:26:45.876 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:26:45.886 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:26:48.269 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:26:48.270 [I] [AccountController.go:39]  v= {ReqData  *dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 18:26:48.270 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:26:48.270 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:27:11.015 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:27:11.022 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:27:12.904 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:27:12.904 [I] [AccountController.go:39]  v= 0
+2018/08/25 18:27:12.904 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:27:12.904 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:28:03.894 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:28:03.901 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:28:06.439 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:28:06.439 [I] [RspManngerService.go:94]  BIP0054T接口处理请求结束
+2018/08/25 18:28:26.017 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:28:26.023 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:28:27.658 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:28:27.659 [I] [AccountController.go:39]  v= {ReqData  *dto.QueryAccountReqDto  0 [0] false}
+2018/08/25 18:28:27.659 [I] [RspManngerService.go:95]  BIP0054T接口处理请求结束
+2018/08/25 18:29:09.915 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:29:09.922 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:29:11.995 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:29:11.996 [I] [AccountController.go:39]  v= <nil>
+2018/08/25 18:29:11.996 [I] [RspManngerService.go:95]  BIP0054T接口处理请求结束
+2018/08/25 18:29:36.701 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:29:36.708 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:29:38.343 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:29:38.343 [I] [AccountController.go:39]  body= [60 82 79 79 84 62 10 32 32 32 32 60 82 101 113 83 118 99 72 101 97 100 101 114 62 10 32 32 32 32 32 32 32 32 60 99 111 110 115 117 109 101 114 73 100 62 69 68 66 60 47 99 111 110 115 117 109 101 114 73 100 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 67 111 100 101 62 66 73 80 48 48 53 52 84 60 47 116 114 97 110 67 111 100 101 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 83 101 113 78 111 62 69 68 66 48 49 50 48 49 56 48 56 50 50 49 48 48 48 54 51 52 49 53 52 69 68 66 50 57 50 53 50 53 60 47 116 114 97 110 83 101 113 78 111 62 10 32 32 32 32 32 32 32 32 60 103 108 111 98 97 108 83 101 113 78 111 62 69 68 66 48 49 50 48 49 56 48 56 50 50 49 48 48 48 54 51 52 49 53 52 60 47 103 108 111 98 97 108 83 101 113 78 111 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 68 97 116 101 62 50 48 49 56 48 56 50 50 60 47 116 114 97 110 68 97 116 101 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 84 105 109 101 62 49 48 52 57 52 55 52 49 57 60 47 116 114 97 110 84 105 109 101 62 10 32 32 32 32 32 32 32 32 60 116 114 97 110 84 101 108 108 101 114 78 111 62 77 48 48 48 49 60 47 116 114 97 110 84 101 108 108 101 114 78 111 62 10 32 32 32 32 32 32 32 32 60 98 114 97 110 99 104 73 100 62 56 48 50 48 49 49 60 47 98 114 97 110 99 104 73 100 62 10 32 32 32 32 32 32 32 32 60 97 99 99 116 68 97 116 101 62 50 48 49 56 48 56 50 50 60 47 97 99 99 116 68 97 116 101 62 10 32 32 32 32 32 32 32 32 60 115 111 117 114 99 101 83 121 115 73 100 62 69 68 66 60 47 115 111 117 114 99 101 83 121 115 73 100 62 10 32 32 32 32 32 32 32 32 60 99 104 97 110 110 101 108 62 49 48 51 55 60 47 99 104 97 110 110 101 108 62 10 32 32 32 32 60 47 82 101 113 83 118 99 72 101 97 100 101 114 62 10 32 32 32 32 60 114 101 113 83 118 99 69 120 116 72 101 97 100 101 114 77 97 112 62 10 32 32 32 32 32 32 32 32 60 118 101 114 115 105 111 110 62 48 48 49 60 47 118 101 114 115 105 111 110 62 10 32 32 32 32 32 32 32 32 60 116 121 112 101 62 88 60 47 116 121 112 101 62 10 32 32 32 32 32 32 32 32 60 109 97 99 86 97 108 117 101 62 60 47 109 97 99 86 97 108 117 101 62 10 32 32 32 32 32 32 32 32 60 115 101 115 115 105 111 110 73 68 62 60 47 115 101 115 115 105 111 110 73 68 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 73 80 62 60 47 99 108 105 101 110 116 73 80 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 77 65 67 62 60 47 99 108 105 101 110 116 77 65 67 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 79 83 62 60 47 99 108 105 101 110 116 79 83 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 66 114 111 119 115 101 114 62 60 47 99 108 105 101 110 116 66 114 111 119 115 101 114 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 78 117 110 105 116 84 121 112 101 62 60 47 99 108 105 101 110 116 78 117 110 105 116 84 121 112 101 62 10 32 32 32 32 32 32 32 32 60 99 108 105 101 110 116 84 101 114 109 105 110 97 116 101 78 79 62 60 47 99 108 105 101 110 116 84 101 114 109 105 110 97 116 101 78 79 62 10 32 32 32 32 60 47 114 101 113 83 118 99 69 120 116 72 101 97 100 101 114 77 97 112 62 10 32 32 32 32 60 83 118 99 66 111 100 121 62 10 32 32 32 32 60 101 65 99 99 111 117 110 116 78 111 62 54 50 51 54 56 56 50 50 48 49 48 48 48 48 48 48 56 54 48 60 47 101 65 99 99 111 117 110 116 78 111 62 10 32 32 32 32 60 99 117 115 116 78 111 62 49 48 48 48 52 56 53 57 49 48 60 47 99 117 115 116 78 111 62 10 60 47 83 118 99 66 111 100 121 62 10 32 32 32 32 60 101 115 98 83 101 114 118 105 99 101 78 97 109 101 62 66 73 80 48 48 53 52 84 60 47 101 115 98 83 101 114 118 105 99 101 78 97 109 101 62 10 60 47 82 79 79 84 62]
+2018/08/25 18:29:38.343 [I] [AccountController.go:39]  v= <nil>
+2018/08/25 18:29:38.343 [I] [RspManngerService.go:96]  BIP0054T接口处理请求结束
+2018/08/25 18:31:01.093 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:31:01.107 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:31:04.557 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:31:04.557 [I] [AccountController.go:39]  test= {{ ROOT} {EDB BIP0054T EDB01201808221000634154EDB292525 EDB01201808221000634154 20180822 104947419 M0001 802011 20180822 EDB 1037} {6236882201000000860 1000485910} BIP0054T}
+2018/08/25 18:31:04.557 [I] [RspManngerService.go:97]  BIP0054T接口处理请求结束
+2018/08/25 18:32:26.764 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:32:26.772 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:32:28.239 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:32:28.240 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:32:28.240 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:38:03.884 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:38:03.890 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:38:05.700 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:38:05.700 [E] [AccountController.go:39]  解析xml错误,err=unknown type map[string]string
+2018/08/25 18:38:05.700 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:53:47.659 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:53:47.671 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:53:54.255 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  Handler crashed with error interface conversion: interface {} is *reflect.ValueError, not string
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/iface.go:252
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:53
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:937
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:334
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:146
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:134
+2018/08/25 18:53:54.255 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:128
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:89
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 18:53:54.256 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 18:54:40.144 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:54:40.153 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:54:42.493 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:54:42.493 [I] [AccountController.go:39]  v= <nil>
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  the request url is  /api/v1.0/BIP0054T/TRU001
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  Handler crashed with error interface conversion: interface {} is *reflect.ValueError, not string
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/iface.go:252
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:53
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/panic.go:502
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:937
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:334
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:146
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:134
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/encoding/xml/read.go:128
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/models/server/RspManngerService.go:90
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /Users/kichi/go/src/hxyhBankTest/controllers/AccountController.go:39
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:573
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:447
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/reflect/value.go:308
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /Users/kichi/go/src/github.com/astaxie/beego/router.go:847
+2018/08/25 18:54:42.493 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:2694
+2018/08/25 18:54:42.494 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/net/http/server.go:1830
+2018/08/25 18:54:42.494 [C] [asm_amd64.s:573]  /usr/local/Cellar/go/1.10.3/libexec/src/runtime/asm_amd64.s:2361
+2018/08/25 18:54:59.959 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:54:59.967 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:55:07.781 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:55:07.781 [I] [AccountController.go:39]  v= {<nil>}
+2018/08/25 18:55:07.781 [E] [AccountController.go:39]  解析xml错误,err=non-pointer passed to Unmarshal
+2018/08/25 18:55:07.781 [I] [asm_amd64.s:573]  BIP0054T接口处理请求结束
+2018/08/25 18:55:42.081 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:55:42.088 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:55:43.508 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:55:43.508 [I] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:55:43.509 [I] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 18:55:43.509 [I] [RspManngerService.go:99]  BIP0054T接口处理请求结束
+2018/08/25 18:57:54.573 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:57:54.580 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:57:56.437 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:57:56.438 [I] [AccountController.go:39]  v= &{0xc420236000}
+2018/08/25 18:57:56.438 [I] [RspManngerService.go:98]  BIP0054T接口处理请求结束
+2018/08/25 18:58:31.073 [I] [:0]  日志配置文件初始化init end
+2018/08/25 18:58:31.079 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 18:58:33.043 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 18:58:33.044 [I] [AccountController.go:39]  v= &{{ ROOT} {EDB BIP0054T EDB01201808221000634154EDB292525 EDB01201808221000634154 20180822 104947419 M0001 802011 20180822 EDB 1037} {6236882201000000860 1000485910} BIP0054T}
+2018/08/25 18:58:33.044 [I] [RspManngerService.go:98]  BIP0054T接口处理请求结束
+2018/08/25 19:10:20.738 [I] [:0]  日志配置文件初始化init end
+2018/08/25 19:10:20.745 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 19:10:22.623 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 19:10:22.623 [I] [AccountController.go:39]  v= &{<nil>}
+2018/08/25 19:10:22.623 [I] [RspManngerService.go:99]  BIP0054T接口处理请求结束
+2018/08/25 19:12:27.448 [I] [:0]  日志配置文件初始化init end
+2018/08/25 19:12:27.461 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 19:12:29.104 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 19:12:29.104 [I] [AccountController.go:39]  v= &{{ ROOT} {EDB BIP0054T EDB01201808221000634154EDB292525 EDB01201808221000634154 20180822 104947419 M0001 802011 20180822 EDB 1037} {6236882201000000860 1000485910} BIP0054T}
+2018/08/25 19:12:29.104 [I] [RspManngerService.go:100]  BIP0054T接口处理请求结束
+2018/08/25 21:25:49.732 [I] [:0]  日志配置文件初始化init end
+2018/08/25 21:25:49.739 [I] [asm_amd64.s:2361]  http server Running on http://:8080
+2018/08/25 21:25:55.395 [I] [AccountController.go:39]  BIP0054T接口处理请求开始
+2018/08/25 21:25:55.395 [I] [AccountController.go:39]  v= &{{ ROOT} {EDB BIP0054T EDB01201808221000634154EDB292525 EDB01201808221000634154 20180822 104947419 M0001 802011 20180822 EDB 1037} {6236882201000000860 1000485910} BIP0054T}
+2018/08/25 21:25:55.395 [I] [RspManngerService.go:97]  BIP0054T接口处理请求结束
